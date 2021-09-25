@@ -15,8 +15,7 @@ public class Main {
             if (i % 73 == 0 && i !=0) {
                 System.out.println( i + " - podzielna przez 73" + " = " + i/b);
             }
-        } while (--i > 0);
-
+        } while (--i >= 0);
 
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
