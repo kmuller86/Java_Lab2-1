@@ -9,12 +9,14 @@ public class Main {
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
         int i = 1000;
+        int b= 73;
+        System.out.println(b);
         do {
-            System.out.println("i:" + i);
-        } while (--i >= 0);
-        if (i % 2 == 0) {
-            System.out.println(" - podzielna przez 2");
-        }
+            if (i % 73 == 0 && i !=0) {
+                System.out.println( i + " - podzielna przez 73" + " = " + i/b);
+            }
+        } while (--i > 0);
+
 
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
