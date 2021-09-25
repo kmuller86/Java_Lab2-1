@@ -8,7 +8,13 @@ public class Main {
           Jeśli liczba będzie podzielna przez 2 ostatnie cyfry waszego indexu (podać nr indexu)
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
-
+        int i = 1000;
+        do {
+            System.out.println("i:" + i);
+        } while (--i >= 0);
+        if (i % 2 == 0) {
+            System.out.println(" - podzielna przez 2");
+        }
 
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
