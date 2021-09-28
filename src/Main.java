@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-
     private static int[] tablica;
-
     public static void main(String[] args) {
 
         /* ćwiczenie 3 switch case */
