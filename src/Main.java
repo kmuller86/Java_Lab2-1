@@ -18,7 +18,7 @@ public class Main {
                 System.out.println( i + " - podzielna przez 73" + " = " + i/b);
             }
         } while (--i >= 0);
-
+        System.out.println("");
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
           przeiterować tablicę po elementach i wyswietlić, użyć pętli while
@@ -42,6 +42,7 @@ public class Main {
             System.out.println(x + " ");
             ++j;
         }
+        System.out.println("");
 
         double[] tab2 = new double[5];
         /* punkt b) */
@@ -60,6 +61,7 @@ public class Main {
             System.out.println(y + " ");
             ++k;
         }
+        System.out.println("");
 
         String[] tab3 = new String[5];
         /* punkt c) */
@@ -76,11 +78,45 @@ public class Main {
             System.out.println(z + " ");
             --l;
         }
+            System.out.println("");
 
     /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
         b) a jak gdy damy false --> while(false)
         */
 
+        int m = 3;
+        while(m > 0){
+            System.out.println(m);
+            m--;
+        }
+        System.out.println("");
+
+        //Poniższa pętla nigdy się nie kończy gdyż inkrementujemy o 1 wewnątrz jej.
+/*        int p=10;
+        while(p>1)
+        {
+            System.out.println(p);
+            p++;
+        }
+        System.out.println("");
+*/
+        int[] arr = {2,11,45,9};
+        //i zaczyna się od 0 tak jak indexy
+        int o = 0;
+        while(o < 4){
+            System.out.println(arr[o]);
+            o++;
+        }
+        System.out.println("");
+
+        //Warunek False nic nigdy nie wykonana.
+        while (false){
+            System.out.println("Neverending sotry...");
+        }
+        //Warunek True tworzy niekończącą się pętlę
+        while (true){
+            System.out.println("Neverending sotry...");
+        }
     }
 }
