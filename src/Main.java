@@ -109,14 +109,15 @@ public class Main {
             o++;
         }
         System.out.println("");
-
-        //Warunek False nic nigdy nie wykonana.
+/*
+        //Warunek False nic nigdy nie wykonana. Error: unreachable statement.
         while (false){
             System.out.println("Neverending sotry...");
         }
-        //Warunek True tworzy niekończącą się pętlę
+        //Warunek True tworzy niekończącą się pętlę, wypisując "Neverending story..."
         while (true){
             System.out.println("Neverending sotry...");
         }
+*/
     }
 }
