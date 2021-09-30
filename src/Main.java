@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-
         /* cw.1 pętle while */
 
         /* zad 1 - Napisać za pomocą pętli do-while kod który będzie iterował od liczby 1000 w dół do 0.
