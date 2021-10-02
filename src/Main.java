@@ -14,7 +14,7 @@ public class Main {
         wypisanie2(uzupelnienieStrinow(tab2));
         // zad.3
         zad3("Sławek", "Majchrzak", 48);
-
+        // zad.4 zmienne + wywołanie
         int wynikA = zad4(1, 2);
         int wynikB = zad4(7, 8, 9);
         System.out.println("Suma: " + (wynikA + wynikB));
@@ -75,13 +75,12 @@ public class Main {
         }
         return odUsera;
     }
-
+    // zad.4
     public static int zad4(int a, int b) {
         int wynikA = (a + b);
         System.out.println("Zmienna A: " + wynikA);
         return wynikA;
     }
-
     public static int zad4(int c, int d, int e) {
         int wynikB = (c + d + e);
         System.out.println("Zmienna B: " + wynikB);
@@ -89,11 +88,3 @@ public class Main {
     }
 
 }
-
-        /* zad.4
-        a) napisać metodę która przyjmuje 2 parametry typu int i zwraca ich sumę, którą przypiszemy do zmiennej,
-            coś takiego:                                    zmiennaA = metoda(1, 2); <-- wywołanie metody
-        b) napisać metodę (nazwa ta sama co w punkcie a) która przyjmuje 3 parametry typu int i zwraca ich sumę,
-            którą przypiszemy do zmiennej, coś takiego:     zmiennaB = metoda(7, 8, 9); <-- wywołanie metody
-        c) wyświetlić sumę wywołań obu metod ---> print("wynik: " + (metoda(8, 9) + metoda(2, 3, 4));
-        */
