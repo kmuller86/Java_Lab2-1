@@ -15,6 +15,9 @@ public class Main {
         // zad.3
         zad3("Sławek", "Majchrzak", 48);
 
+        int wynikA = zad4(1, 2);
+        int wynikB = zad4(7, 8, 9);
+        System.out.println("Suma: " + (wynikA + wynikB));
     }
 
     // zad.1 b) napisać metodę która będzie uzupełniała tablicę wartościami od 40 do 20
@@ -71,6 +74,18 @@ public class Main {
             odUsera[i] = sc.nextLine();
         }
         return odUsera;
+    }
+
+    public static int zad4(int a, int b) {
+        int wynikA = (a + b);
+        System.out.println("Zmienna A: " + wynikA);
+        return wynikA;
+    }
+
+    public static int zad4(int c, int d, int e) {
+        int wynikB = (c + d + e);
+        System.out.println("Zmienna B: " + wynikB);
+        return wynikB;
     }
 
 }
