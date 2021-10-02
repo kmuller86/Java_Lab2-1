@@ -18,6 +18,8 @@ public class Main {
         int wynikA = zad4(1, 2);
         int wynikB = zad4(7, 8, 9);
         System.out.println("Suma zmiennych A i B: " + (wynikA + wynikB));
+
+        Zadanie_4.Zadanie();
     }
 
     // zad.1 b) napisać metodę która będzie uzupełniała tablicę wartościami od 40 do 20
@@ -75,7 +77,7 @@ public class Main {
         }
         return odUsera;
     }
-    // zad.4
+    // zad.4 po mojemu, chyba nie o to chodziło ha ha :)
     public static int zad4(int a, int b) {
         int wynikA = (a + b);
         System.out.println("Zmienna A (suma dwóch liczb): " + wynikA);
@@ -86,5 +88,22 @@ public class Main {
         System.out.println("Zmienna B (suma trzech liczb): " + wynikB);
         return wynikB;
     }
+
+    // zad.4 poprawnie chyba już
+    public class Zadanie_4 {
+        static int suma(int a, int b) {
+            return a + b;
+        }
+        static int suma(int a, int b, int c) {
+            return a + b + c;
+        }
+        static void Zadanie() {
+            int zniennaA = suma(1, 2);
+            int zmiennaB = suma(3,4,5);
+            System.out.println("Wynik: " + (suma(1,2) + (suma(3,4,5))));
+        }
+
+    }
+
 
 }
