@@ -17,7 +17,7 @@ public class Main {
         // zad.4 zmienne + wywołanie
         int wynikA = zad4(1, 2);
         int wynikB = zad4(7, 8, 9);
-        System.out.println("Suma: " + (wynikA + wynikB));
+        System.out.println("Suma zmiennych A i B: " + (wynikA + wynikB));
     }
 
     // zad.1 b) napisać metodę która będzie uzupełniała tablicę wartościami od 40 do 20
@@ -48,7 +48,7 @@ public class Main {
     //            (użyć do tego pętli i klasy Scanner)
     static void wypisanie2(String[] tab2) {
         int index = tab2.length - 1;
-        System.out.print("Twoje stringi to: ");
+        System.out.print("Twoje stringi na opak to: ");
         for (int i = 0; i < tab2.length; i++) {
             System.out.print(tab2[index - i] + " ");
         }
@@ -78,12 +78,12 @@ public class Main {
     // zad.4
     public static int zad4(int a, int b) {
         int wynikA = (a + b);
-        System.out.println("Zmienna A: " + wynikA);
+        System.out.println("Zmienna A (suma dwóch liczb): " + wynikA);
         return wynikA;
     }
     public static int zad4(int c, int d, int e) {
         int wynikB = (c + d + e);
-        System.out.println("Zmienna B: " + wynikB);
+        System.out.println("Zmienna B (suma trzech liczb): " + wynikB);
         return wynikB;
     }
 
