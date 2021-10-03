@@ -14,6 +14,7 @@ public class Main {
         wypisanie2(uzupelnienieStrinow(tab2));
         // zad.3
         zad3("Sławek", "Majchrzak", 48);
+
         // zad.4 zmienne + wywołanie
         int wynikA = zad4(1, 2);
         int wynikB = zad4(7, 8, 9);
@@ -97,13 +98,10 @@ public class Main {
         static int suma(int a, int b, int c) {
             return a + b + c;
         }
+
         static void Zadanie() {
-            int zniennaA = suma(1, 2);
-            int zmiennaB = suma(3,4,5);
             System.out.println("Wynik: " + (suma(1,2) + (suma(3,4,5))));
         }
-
     }
-
 
 }
