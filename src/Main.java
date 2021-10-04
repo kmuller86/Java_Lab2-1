@@ -67,7 +67,7 @@ public class Main {
          */
         }
 
-        static void Numery () {
+        static void Numery() {
             Set<String> liczby = new TreeSet<>();
             Scanner scan = new Scanner((System.in));
 
