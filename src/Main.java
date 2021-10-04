@@ -68,13 +68,13 @@ public class Main {
         }
 
         static void Numery() {
-            Set<String> liczby = new TreeSet<>();
+            SortedSet<Integer> liczby = new TreeSet<>();
             Scanner scan = new Scanner((System.in));
 
             System.out.print("Wypisz kilka liczb, niech się niektórw powtórzą : ");
             int max = 10;
             for (int i = 0; i < max; i++) {
-                liczby.add(scan.nextLine());
+                liczby.add(Integer.valueOf(scan.nextLine()));
             }
             System.out.println("Twoje Liczby to: " + liczby + " bez duplikatów i posortowane rosnąco.");
         }
