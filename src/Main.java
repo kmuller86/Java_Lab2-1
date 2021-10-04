@@ -66,6 +66,7 @@ public class Main {
          a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
         }
+
         public static void Numery () {
             Set<String> liczby = new TreeSet<>();
             Scanner scan2 = new Scanner((System.in));
@@ -77,5 +78,5 @@ public class Main {
             }
             System.out.println("Twoje Liczby to: " + liczby + " bez duplikatów i posortowane rosnąco.");
         }
-    }
+}
 
