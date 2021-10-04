@@ -21,7 +21,7 @@ public class Main {
            elementów listy
           */
     }
-        public static void Zwierzaki() {
+        static void Zwierzaki() {
             List<String> zwierzaki = new ArrayList<>();
             Scanner scan = new Scanner((System.in));
             System.out.print("Wypisz kilka nazw zwierząt : ");
@@ -67,14 +67,14 @@ public class Main {
          */
         }
 
-        public static void Numery () {
+        static void Numery () {
             Set<String> liczby = new TreeSet<>();
-            Scanner scan2 = new Scanner((System.in));
+            Scanner scan = new Scanner((System.in));
 
             System.out.print("Wypisz kilka liczb, niech się niektórw powtórzą : ");
-            int max2 = 10;
-            for (int i = 0; i < max2; i++) {
-                liczby.add(scan2.nextLine());
+            int max = 10;
+            for (int i = 0; i < max; i++) {
+                liczby.add(scan.nextLine());
             }
             System.out.println("Twoje Liczby to: " + liczby + " bez duplikatów i posortowane rosnąco.");
         }
