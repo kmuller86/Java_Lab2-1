@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         /* ćw_6 Listy */
+        /* nazwy metod piszemu małymi literami zwierzaki(); */
         Zwierzaki();
         Numery();
         /* zad.1
